@@ -93,8 +93,8 @@
 0,^ CUSTOMER ^ SERVICES ^ Finland ^ WITHOUT KYC ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
 0,^ CUSTOMER ^ SERVICES ^ Norway ^ WITHOUT KYC ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
 0,^ CUSTOMER ^ SERVICES ^ Denmark ^ POA ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
-0,^ CUSTOMER ^ SERVICES ^ Sweden ^  POA ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
-0,^ CUSTOMER ^ SERVICES ^ Finland ^  POA ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ Sweden ^ POA ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ Finland ^ POA ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
 0,^ CUSTOMER ^ SERVICES ^ Norway ^ POA ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
 0,^ CUSTOMER ^ SERVICES ^ Denmark ^ NLP ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
 0,^ CUSTOMER ^ SERVICES ^ Sweden ^ NLP ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
