@@ -49,21 +49,21 @@
 0,HELP,*,*,DlcomTDM@Nordea.com,a-custom-entry.aiml
 0,^ REPORT ^ ERROR ^,*,*,DlcomTDM@Nordea.com,a-custom-entry.aiml
 0,^ LOOKING FOR DENMARK TEST DATA ^,*,*,125489635 Private Banking Customer. 549632749 Retail Customer. 356987521 Corporate Customer. 456213897 US Customer 241356987 Minor Customer,a-custom-entry.aiml
-0,^ LOOKING FOR SWEDEN TEST DATA ^,*,*,195007091811 Private Banking Customer. 198502067458 Reatil Customer.197702652459 Corporate Customer.198911124568 US Customer.201002064873 Minor Customer,a-custom-entry.aiml
+0,^ LOOKING FOR SWEDEN TEST DATA ^,*,*,195007091811 Private Banking Customer. 198502067458 Retail Customer.197702652459 Corporate Customer.198911124568 US Customer.201002064873 Minor Customer,a-custom-entry.aiml
 0,^ LOOKING FOR FINLAND TEST DATA ^,*,*,524788 Private Banking customer. 468987 Retail Customer. 176984 Corporate Customer.425612 US customer.526324 Minor Customer,a-custom-entry.aiml
-0,^ LOOKING FOR NORWAY TEST DATA ^,*,*,196807091871 Private Banking Customer. 192502067458 Reatil Customer.196602652489 Corporate Customer.198911121468 US Customer.201002064145 Minor Customer,a-custom-entry.aiml
+0,^ LOOKING FOR NORWAY TEST DATA ^,*,*,196807091871 Private Banking Customer. 192502067458 Retail Customer.196602652489 Corporate Customer.198911121468 US Customer.201002064145 Minor Customer,a-custom-entry.aiml
 0,^ DENMARK CUSTOMER,*,*,Production||Pre-Production||Test||Dev,a-custom-entry.aiml
 0,^ FINLAND CUSTOMER,*,*,Production||Pre-Production||Test||Dev,a-custom-entry.aiml
 0,^ NORWAY CUSTOMER,*,*,Production||Pre-Production||Test||Dev,a-custom-entry.aiml
 0,^ SWEDEN CUSTOMER,*,*,Production||Pre-Production||Test||Dev,a-custom-entry.aiml
 0,^ DENMARK CUSTOMER ^ TEST ^,*,*,125489635 Private Banking Customer \\n549632749 Retail Customer \\n356987521 Corporate Customer \\n456213897 US Customer \\n241356987 Minor Customer,a-custom-entry.aiml
 0,^ FINLAND CUSTOMER ^ TEST ^,*,*,524788 Private Banking customer \\n468987 Retail Customer \\n176984 Corporate Customer \\n425612 US customer \\n526324 Minor Customer,a-custom-entry.aiml
-0,^ NORWAY CUSTOMER ^ TEST ^,*,*,196807091871 Private Banking Customer \\n192502067458 Reatil Customer \\n196602652489 Corporate Customer \\n198911121468 US Customer \\n201002064145 Minor Customer,a-custom-entry.aiml
-0,^ SWEDEN CUSTOMER ^ TEST ^,*,*,195007091811 Private Banking Customer \\n198502067458 Reatil Customer \\n197702652459 Corporate Customer \\n198911124568 US Customer \\n201002064873 Minor Customer,a-custom-entry.aiml
+0,^ NORWAY CUSTOMER ^ TEST ^,*,*,196807091871 Private Banking Customer \\n192502067458 Retail Customer \\n196602652489 Corporate Customer \\n198911121468 US Customer \\n201002064145 Minor Customer,a-custom-entry.aiml
+0,^ SWEDEN CUSTOMER ^ TEST ^,*,*,195007091811 Private Banking Customer \\n198502067458 Retail Customer \\n197702652459 Corporate Customer \\n198911124568 US Customer \\n201002064873 Minor Customer,a-custom-entry.aiml
 0,^ DENMARK CUSTOMER ^ DEV ^,*,*,125489635 Private Banking Customer \\n549632749 Retail Customer \\n356987521 Corporate Customer \\n456213897 US Customer \\n241356987 Minor Customer,a-custom-entry.aiml
 0,^ FINLAND CUSTOMER ^ DEV ^,*,*,524788 Private Banking customer \\n468987 Retail Customer \\n176984 Corporate Customer \\n425612 US customer \\n526324 Minor Customer,a-custom-entry.aiml
-0,^ NORWAY CUSTOMER ^ DEV ^,*,*,196807091871 Private Banking Customer \\n192502067458 Reatil Customer \\n196602652489 Corporate Customer \\n198911121468 US Customer \\n201002064145 Minor Customer,a-custom-entry.aiml
-0,^ SWEDEN CUSTOMER ^ DEV ^,*,*,195007091811 Private Banking Customer \\n198502067458 Reatil Customer \\n197702652459 Corporate Customer \\n198911124568 US Customer \\n201002064873 Minor Customer,a-custom-entry.aiml
+0,^ NORWAY CUSTOMER ^ DEV ^,*,*,196807091871 Private Banking Customer \\n192502067458 Retail Customer \\n196602652489 Corporate Customer \\n198911121468 US Customer \\n201002064145 Minor Customer,a-custom-entry.aiml
+0,^ SWEDEN CUSTOMER ^ DEV ^,*,*,195007091811 Private Banking Customer \\n198502067458 Retail Customer \\n197702652459 Corporate Customer \\n198911124568 US Customer \\n201002064873 Minor Customer,a-custom-entry.aiml
 0,^ DENMARK CUSTOMER ^ PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Denmark customer in test environment,a-custom-entry.aiml
 0,^ FINLAND CUSTOMER ^ PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Finland customer in test environment,a-custom-entry.aiml
 0,^ NORWAY CUSTOMER ^ PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Norway customer in test environment,a-custom-entry.aiml
