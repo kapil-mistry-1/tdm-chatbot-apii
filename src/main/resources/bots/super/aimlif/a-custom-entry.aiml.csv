@@ -6,7 +6,8 @@
 0,^ REQUEST ^ NEW CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
 0,^ GET MORE VOLUME OF DATA ^,*,*,pdf_link,a-custom-entry.aiml
 0,^ ADD MONEY TO ACCOUNTS ^,*,*,jira_link,a-custom-entry.aiml
-0,^ HOW FAST ^ PROVIDE ^ NEW SET OF DATA ^,*,*,As per the volumes. For example to create one customer with trading takes 5 minutes,a-custom-entry.aiml
+0,^ Use Portal ^,*,*,pdf_link,a-custom-entry.aiml
+0,^ HOW FAST ^ PROVIDE ^ NEW SET OF DATA ^,*,*,As per the volumes. For example to create one customer with trading agreement login agreement and cash account takes 5 minutes,a-custom-entry.aiml
 0,^ REPLICATE PRODUCTION DEFECT IN TEST ^,*,*,jira_link,a-custom-entry.aiml
 0,^ ADD EQUITIES TO EXISTING CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
 0,^ ADD FUNDS TO ^ EXISTING CUSTOMER ^,*,*,jira_link,a-custom-entry.aiml
@@ -73,46 +74,62 @@
 0,^ SWEDEN CUSTOMER ^ PRE PRODUCTION ^,*,*,We create Data only for Test Environments. Try searching Sweden customer in test environment,a-custom-entry.aiml
 0,^ HOW ^ CREATE ^ JIRA ^,*,*,jira_link,a-custom-entry.aiml
 0,^ ACCOUNT ^ SERVICES,*,*,ESA||DEPA||NORA||T24||NORA CHILD SAVINGS,a-custom-entry.aiml
-0,^ ACCOUNT ^ SERVICES ^ ESA ^,*,*,jira_link,a-custom-entry.aiml
-0,^ ACCOUNT ^ SERVICES ^ DEPA ^,*,*,jira_link,a-custom-entry.aiml
-0,^ ACCOUNT ^ SERVICES ^ NORA ^,*,*,jira_link,a-custom-entry.aiml
-0,^ ACCOUNT ^ SERVICES ^ T24 ^,*,*,jira_link,a-custom-entry.aiml
-0,^ ACCOUNT ^ SERVICES ^ NORA CHILD SAVINGS ^,*,*,jira_link,a-custom-entry.aiml
-0,^ CUSTOMER ^ SERVICES,*,*,WITH KYC||WITHOUT KYC||POA||NLP,a-custom-entry.aiml
-0,^ CUSTOMER ^ SERVICES ^ WITH KYC ^,*,*,jira_link,a-custom-entry.aiml
-0,^ CUSTOMER ^ SERVICES ^ WITHOUT KYC ^,*,*,jira_link,a-custom-entry.aiml
-0,^ CUSTOMER ^ SERVICES ^ POA ^,*,*,pdf_link,a-custom-entry.aiml
-0,^ CUSTOMER ^ SERVICES ^ NLP ^,*,*,jira_link,a-custom-entry.aiml
+0,^ ACCOUNT ^ SERVICES ^ ESA ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ ACCOUNT ^ SERVICES ^ DEPA ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ ACCOUNT ^ SERVICES ^ NORA ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^ ACCOUNT ^ SERVICES ^ T24 ^,*,*,UserID1 312786 \\nUserID2 316489 \\nUserID3 458644 \\nUserID4 456989 \\nUserID5 123665,a-custom-entry.aiml
+0,^ ACCOUNT ^ SERVICES ^ NORA CHILD SAVINGS ^,*,*,Nemid 4241267965 \\nNemid 4241267985 \\nNemid 4241267877 \\nNemid 4241267888 \\nNemid 4241267875,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ Denmark ^,*,*,WITH KYC||WITHOUT KYC||POA||NLP,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ Sweden ^,*,*,WITH KYC||WITHOUT KYC||POA||NLP,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ Finland ^,*,*,WITH KYC||WITHOUT KYC||POA||NLP,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ Norway ^,*,*,WITH KYC||WITHOUT KYC||POA||NLP,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ WITH KYC ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ WITH KYC ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ WITH KYC ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ WITH KYC ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ WITHOUT KYC ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ WITHOUT KYC ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ WITHOUT KYC ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ WITHOUT KYC ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ POA ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ POA ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ POA ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ POA ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ NLP ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ NLP ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ NLP ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ CUSTOMER ^ SERVICES ^ NLP ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
 0,DEFAULT DATA,*,*,Which country data are you looking for?,a-custom-entry.aiml
-0,^ both OMEGA ^ Legacy ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
-0,^ both OMEGA ^ Legacy ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
-0,^ both OMEGA ^ Legacy ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
-0,^ both OMEGA ^ Legacy ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
-0,^ both OMEGA ^ Legacy ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
-0,^ Customer ^Portman reports ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
-0,^ Customer ^Mobile Bank access ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
-0,^ Customer ^Mobile Bank access ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
-0,^ Customer ^Mobile Bank access ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
-0,^ Customer ^Mobile Bank access ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
-0,^ Customer ^Mobile Bank access ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
-0,^ Customer ^ Negative balance ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
-0,^ Customer ^ Negative balance ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
-0,^ Customer ^ Negative balance ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
-0,^ Customer ^ Negative balance ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
-0,^ Customer ^ Negative balance ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
-0,^ Private Banking Customers ^ Financial Plan ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
-0,^ Private Banking Customers ^ Financial Plan ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
-0,^ Private Banking Customers ^ Financial Plan ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
-0,^ Private Banking Customers ^ Financial Plan ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
-0,^ Private Banking Customers ^ Financial Plan ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
-0,^ PBCD ^ Consolidation ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
-0,^ PBCD ^ Consolidation ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
-0,^ PBCD ^ Consolidation ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
-0,^ PBCD ^ Consolidation ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
-0,^ PBCD ^ Consolidation ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
-0,^ Private Banking Customers ^ Financial Plan ^ Consolidation ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
-0,^ Private Banking Customers ^ Financial Plan ^ Consolidation ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
-0,^ Private Banking Customers ^ Financial Plan ^ Consolidation ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
-0,^ Private Banking Customers ^ Financial Plan ^ Consolidation ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
-0,^ Private Banking Customers ^ Financial Plan ^ Consolidation ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
+0,^ OMEGA ^ Legacy ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
+0,^ OMEGA ^ Legacy ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^ OMEGA ^ Legacy ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ OMEGA ^ Legacy ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ OMEGA ^ Legacy ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
+0,^Portman reports ^,*,*,jira_link,a-custom-entry.aiml
+0,^Mobile Bank access ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
+0,^Mobile Bank access ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^Mobile Bank access ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^Mobile Bank access ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^Mobile Bank access ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
+0,^ cash accounts ^ Negative balance ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
+0,^ cash accounts ^ Negative balance ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^ cash accounts ^ Negative balance ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ cash accounts ^ Negative balance ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ cash accounts ^ Negative balance ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Financial Plan ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Financial Plan ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Financial Plan ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Financial Plan ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Financial Plan ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Consolidation ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Consolidation ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Consolidation ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Consolidation ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Consolidation ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Financial Plan ^ Consolidation ^,*,*,Denmark||Norway||Sweden||Finland,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Financial Plan ^ Consolidation ^ Denmark ^,*,*,Nemid 4241267812 \\nNemid 4241267813 \\nNemid 4241267814 \\nNemid 4241267815 \\nNemid 4241267816,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Financial Plan ^ Consolidation ^ Sweden ^,*,*,Customer1 198526453222 \\nCustomer2 198626453317 \\nCustomer3 198726453547 \\nCustomer4 198826453845 \\nCustomer5 198926453246,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Financial Plan ^ Consolidation ^ Finland ^,*,*,UserID1 512786 \\nUserID2 306489 \\nUserID3 458621 \\nUserID4 456987 \\nUserID5 123654,a-custom-entry.aiml
+0,^ Private Banking Customer ^ Financial Plan ^ Consolidation ^ Norway ^,*,*,Customer1 197026453246 \\nCustomer2 197526453412 \\nCustomer3 192526453245 \\nCustomer4 198926453124 \\nCustomer5 198926453421,a-custom-entry.aiml
 0,*,*,*,Sorry. I am still learning. To get an answer kindly raise a jira. Try searching how to create a jira,a-custom-entry.aiml
