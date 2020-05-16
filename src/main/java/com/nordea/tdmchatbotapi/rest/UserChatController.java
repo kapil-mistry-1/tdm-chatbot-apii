@@ -48,7 +48,8 @@ public class UserChatController {
 	    
 		LOG.info("The request sent by the user is:" + userQuery);
 		return userChatService.getQueryResponse(userQuery);
-	}
+	}	
+	
 
 	@PostConstruct
 	public void doLog() {

@@ -60,9 +60,6 @@ public class UserChatServiceImpl implements UserChatService {
 				result.setResponse(response);
 		}
 		return result;
-	}
-
-	
-
+	}	
 
 }

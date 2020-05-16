@@ -19,5 +19,15 @@ public class ChatUtil {
 		String resourcesPath = path + File.separator + "src" + File.separator + "main" + File.separator + "resources";
 		return resourcesPath;
 	}
+	
+	public static String getFilePath() {
+		File currDir = new File(".");
+		String path = currDir.getAbsolutePath();
+		path = path.substring(0, path.length() - 2);
+		String resourcesPath = path + File.separator + "src" + File.separator + "main" + File.separator + "resources"
+				+ File.separator + "bots" + File.separator + "super" + File.separator + "aimlif" + File.separator
+				+ "a-custom-entry.aiml.csv";
+		return resourcesPath;
+	}
 }
 

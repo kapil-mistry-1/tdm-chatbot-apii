@@ -40,6 +40,11 @@
 			<groupId>org.alicebot</groupId>
 			<version>0.0.4.3</version>
 		</dependency>
+		<dependency>
+			<groupId>com.opencsv</groupId>
+			<artifactId>opencsv</artifactId>
+			<version>4.1</version>
+		</dependency>		
 	</dependencies>
 
 	<build>
