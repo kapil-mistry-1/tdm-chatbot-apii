@@ -2,17 +2,8 @@ package com.nordea.tdmchatbotapi.model;
 
 public class Category {
 
-	private int id;
 	private String question;
-	private String answer;
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
+	private String answer;	
 
 	public String getQuestion() {
 		return question;

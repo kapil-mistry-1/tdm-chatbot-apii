@@ -20,13 +20,12 @@ public class CsvFileServiceImpl implements CsvFileService {
 		List<Category> categories = new ArrayList<>();
 		try {
 			FileReader filereader = new FileReader(ChatUtil.getFilePath());
-			CSVReader csvReader = new CSVReaderBuilder(filereader).withSkipLines(1).build();
+			CSVReader csvReader = new CSVReaderBuilder(filereader).build();
 			List<String[]> allData = csvReader.readAll();
-			int id = 0;
+			
 			for (String[] row : allData) {
-				Category category = getCategory(row, id);
-				categories.add(category);
-				id++;
+				Category category = getCategory(row);
+				categories.add(category);				
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -58,7 +57,11 @@ public class CsvFileServiceImpl implements CsvFileService {
 			if (category != null) {
 				csvReader = new CSVReader(new FileReader(ChatUtil.getFilePath()));
 				List<String[]> allElements = csvReader.readAll();
-				allElements.get(category.getId())[4] = category.getAnswer();
+				for (int row = 0; row < allElements.size(); row++) {
+					if (allElements.get(row)[1].trim().equalsIgnoreCase(category.getQuestion())) {
+						allElements.get(row)[4] = category.getAnswer();
+					}
+				}
 				FileWriter sw = new FileWriter(ChatUtil.getFilePath());
 				CSVWriter writer = new CSVWriter(sw);
 				writer.writeAll(allElements);
@@ -75,7 +78,11 @@ public class CsvFileServiceImpl implements CsvFileService {
 			if (category != null) {
 				csvReader = new CSVReader(new FileReader(ChatUtil.getFilePath()));
 				List<String[]> allElements = csvReader.readAll();
-				allElements.remove(category.getId());
+				for (int row = 0; row < allElements.size(); row++) {
+					if (allElements.get(row)[1].trim().equalsIgnoreCase(category.getQuestion())) {
+						allElements.remove(row);
+					}
+				}
 				FileWriter sw = new FileWriter(ChatUtil.getFilePath());
 				CSVWriter writer = new CSVWriter(sw);
 				writer.writeAll(allElements);
@@ -86,10 +93,9 @@ public class CsvFileServiceImpl implements CsvFileService {
 		}
 	}
 
-	private Category getCategory(String[] row, int id) {
+	private Category getCategory(String[] row) {
 		Category category = new Category();
-		if (row != null && row.length > 0) {
-			category.setId(id);
+		if (row != null && row.length > 0) {			
 			category.setQuestion(row[1]);
 			category.setAnswer(row[4]);			
 		}
